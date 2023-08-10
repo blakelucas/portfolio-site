@@ -415,13 +415,13 @@ nav .fa-solid {
     .edu-container {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        grid-gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 10px;
         font-size: 12px;
     }
 
     .edu-col ul li span {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .edu-col {
