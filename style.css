@@ -333,6 +333,11 @@ nav .fa-solid {
     display: none;
 }
 
+/* Smaller screens
+@media only screen and (max-width: 800px) {
+
+} */
+
 @media only screen and (max-width: 600px) {
     #header {
         background-image: url(images/mobile-background.png);
@@ -411,7 +416,12 @@ nav .fa-solid {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        grid-gap: 20px;
+        grid-gap: 15px;
+        font-size: 12px;
+    }
+
+    .edu-col ul li span {
+        font-size: 14px;
     }
 
     .edu-col {
@@ -435,8 +445,8 @@ nav .fa-solid {
         width: 100%;
         font-size: 12px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
-        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        grid-gap: 10px;
     }
 
     .skills-col {
