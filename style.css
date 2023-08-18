@@ -505,13 +505,13 @@ nav .fa-solid {
         flex-basis: 100%;
     } 
 
-    /* .contact-left a {
+    .contact-left a {
         text-decoration: none;
-        margin-top: 30px;
-        font-size: 30px;
-    } */
+        /* margin-top: 30px; */
+        font-size: 14px;
+    }
 
-    /* .contact-left p {
-        margin-top: 10px;
-    } */
+    .contact-left p {
+        font-size: 14px;
+    }
 }
