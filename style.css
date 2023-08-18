@@ -280,6 +280,9 @@ nav ul li a:hover::after {
 
 .contact-left {
     flex-basis: 35%;
+    /* background: #262626; */
+    /* padding: 20px; */
+    /* border-radius: 6px; */
 }
 
 .contact-right {
@@ -288,6 +291,13 @@ nav ul li a:hover::after {
 
 .contact-left p {
     margin-top: 30px;
+}
+
+.contact-left a {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    display: block;
 }
 
 .btn {
@@ -304,6 +314,24 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
+    background: rgb(0, 0, 0);
+}
+
+.btn2 {
+    display: flex;
+    float: left;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #cf8e01;
+    padding: 14px 50px;
+    border-radius: 5px;
+    background: #cf8e01;
+    text-decoration: none;
+    color: white;
+    transition: background 0.5s;
+}
+
+.btn2:hover {
     background: rgb(0, 0, 0);
 }
 
@@ -476,4 +504,14 @@ nav .fa-solid {
     .contact-left, .contact-right {
         flex-basis: 100%;
     } 
+
+    /* .contact-left a {
+        text-decoration: none;
+        margin-top: 30px;
+        font-size: 30px;
+    } */
+
+    /* .contact-left p {
+        margin-top: 10px;
+    } */
 }
