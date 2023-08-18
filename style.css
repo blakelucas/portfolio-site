@@ -529,13 +529,13 @@ nav .fa-solid {
 /* MOBILE VERTICAL */
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(images/mobile-background.png);
+        background-image: url(images/mobile-background2.png);
         background-size: cover;
         background-position: center;
     }
 
     .header-text {
-        margin-top: 100%;
+        margin-top: 75%;
         font-size: 16px;
     }
 
